@@ -1,0 +1,26 @@
+{
+    "name": "jeese/laravel_curd",
+    "description": "一键生成curd",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "laravelCurd\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "lyy",
+            "email": "jeese_l@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^9.0"
+    }
+
+}
